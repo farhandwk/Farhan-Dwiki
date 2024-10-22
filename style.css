@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerAll {
+    background-color: #2D3945;
+    width: 100vw;
+    height: 200vh;
+}
+
+
+/* navbar */
+
+.navAboutme {
+    position: absolute;
+    top: 5vh;
+    left: 51.5vw;
+    background-color: white;
+    border: 1vw;
+    width: 13vw;
+    height: 0vh;
+    transition: 0.3s;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 108%;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 1vw;
+    padding: 0%;
+    font-weight: 600;
+}
+
+.shownavAboutme {
+    padding: 1%;
+    height: 18vh;
+    transition: 0.3s;
+}
+
+.navProjects {
+    position: absolute;
+    top: 5vh;
+    left: 61.5vw;
+    background-color: white;
+    border: 1vw;
+    width: 13vw;
+    height: 0vh;
+    overflow: hidden;
+    transition: 0.3s;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 103%;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 1vw;
+    padding: 0%;
+    font-weight: 900;
+}
+
+.shownavProjects {
+    padding: 1%;
+    height: 18vh;
+    transition: 0.3s;
+}
+
+.navWorks {
+    position: absolute;
+    top: 5vh;
+    left: 72vw;
+    background-color: white;
+    border: 1vw;
+    width: 13vw;
+    height: 0vh;
+    overflow: hidden;
+    transition: 0.3s;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 103%;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 1vw;
+    padding: 0%;
+    font-weight: 900;
+}
+
+.shownavWorks {
+    padding: 1%;
+    height: 18vh;
+    transition: 0.3s;
+}
+
+.navSosmed {
+    position: absolute;
+    top: 5vh;
+    left: 81.5vw;
+    background-color: white;
+    border: 1vw;
+    width: 13vw;
+    height: 0vh;
+    overflow: hidden;
+    transition: 0.3s;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 85%;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 1vw;
+    padding: 0%;
+    font-weight: 600;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.shownavSosmed {
+    height: 18vh;
+    padding: 1%;
+    transition: 0.3s;
+}
+
+
+/* sidebar style */
+
+.openSidebar {
+    position: absolute;
+    top: 0.5vh;
+    right: 2vw;
+    height: 4.5vh;
+}
+
+
+/* landing style */
+
+.containerLanding {
+    width: 100vw;
+    height: 96vh;
+    background-color: #2D3945;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerLanding {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 4vh;
+    align-items: center;
+    background-color: none;
+    position: sticky;
+    top: 0;
+    font: icon;
+    z-index: 2;
+}
+
+.container1Landing {
+    width: 85vw;
+    height: 96vh;
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+}
+
+.container2Landing {
+    width: 50vw;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.judulHeader {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 1vw;
+    font-size: 1.1vw;
+    height: 4vh;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 18vw;
+    margin-top: 1vh;
+}
+
+.imgHeader {
+    width: 3vw;
+    height: 3vw;
+}
+
+.navbarLanding {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3vw;
+    gap: 6vw;
+    margin-right: 8vw;
+    color: white;
+    font: icon;
+}
+
+.p1Landing {
+    font-size: 5vw;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 13vw;
+    margin-top: 15vh;
+    z-index: 1;
+    font-weight: normal;
+}
+
+.p2Landing {
+    font-size: 6.34vw;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 13vw;
+    z-index: 1;
+    font-weight: bolder;
+}
+
+.p3Landing {
+    font-size: 3vw;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 13vw;
+    font-weight: lighter;
+}
+
+.btnLanding {
+    background-color: #2D3945;
+    color: white;
+    border: 0.2vw solid white;
+    width: 26vw;
+    height: 8vh;
+    margin-left: 14vw;
+    margin-top: 3vh;
+    font-family: sans-serif;
+    font-size: 2vw;
+    transition: 0.2s;
+    z-index: 2;
+    position: absolute;
+    top: 73.5vh;
+}
+
+.btnLanding:hover {
+    background-color: #455866;
+    transition: 0.2s;
+}
+
+.telegram {
+    position: absolute;
+    left: 36vw;
+    top: 78vh;
+    z-index: 1;
+    rotate: 180deg;
+    transition: 0.5s;
+}
+
+.whatsapp {
+    position: absolute;
+    left: 36vw;
+    top: 78vh;
+    z-index: 1;
+    rotate: 90deg;
+    transition: 0.5s;
+}
+
+.imgProfile {
+    z-index: 2;
+    width: 90%;
+}
+
+.decor1Landing {
+    position: absolute;
+    bottom: 0;
+    left: 60vw;
+    z-index: 1;
+    width: 27%;
+}
+
+.decor2Landing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 26%;
+}
+
+li {
+    list-style: none;
+}
+
+nav li {
+    line-height: 6vh;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #2D3945;
+}
+
+a:hover {
+    color: #455866;
+}
+
+button:hover {
+    cursor: pointer;
+}
